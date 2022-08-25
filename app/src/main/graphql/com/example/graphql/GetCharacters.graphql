@@ -1,0 +1,9 @@
+query GetCharacters ($page: Int, $name: String) {
+    characters(page: $page, filter: { name: $name }) {
+        results {
+            name
+            image
+            id
+        }
+    }
+}
