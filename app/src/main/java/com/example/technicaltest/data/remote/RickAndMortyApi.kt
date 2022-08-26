@@ -27,7 +27,9 @@ class RickAndMortyApi {
                     val newChar = Character(
                         character!!.id!!.toInt(),
                         character.image!!,
-                        character.name!!
+                        character.name!!,
+                        character.gender!!,
+                        character.status!!
                     );
                     characters.add(newChar);
                 }

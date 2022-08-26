@@ -4,6 +4,8 @@ query GetCharacters ($page: Int, $name: String) {
             name
             image
             id
+            gender
+            status
         }
     }
 }
